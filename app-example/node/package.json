@@ -1,0 +1,22 @@
+{
+  "name": "node-api-example",
+  "version": "1.0.0",
+  "description": "API em Node.js para exemplo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daianef/node-api-example.git"
+  },
+  "author": "Daiane Fraga <daiane@umbler.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daianef/node-api-example/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1"
+  }
+}

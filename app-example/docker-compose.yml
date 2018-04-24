@@ -1,15 +1,13 @@
 web:
   build: ./node
-  ports:
-    - "8080:3000"
 
 nginx:
   restart: always
   image: nginx
   ports:
-    - "80:80"
+    - "8081:80"
   volumes:
-    - "./nginx/:/var/logs/nginx"
+    - "./nginx/:/var/log/nginx"
     - "./nginx/nginx.conf:/etc/nginx/nginx.conf"
   links:
     - web:web
